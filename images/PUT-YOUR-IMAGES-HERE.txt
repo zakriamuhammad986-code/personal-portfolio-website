@@ -1,0 +1,6 @@
+Apni pictures is folder mein in naamon se save karein (jpg):
+  profile.jpg       -> hero mein aap ki photo (portrait, 4:5 best)
+  hospital-map.jpg  -> Hospital Facilities Map ka screenshot
+  groundwater.jpg   -> Groundwater Potential Zonation ka map
+  arcpy-tool.jpg    -> ArcPy tool ka output / screenshot
+Jab tak picture nahi hoti, cards mein contour-map design nazar aata hai.
