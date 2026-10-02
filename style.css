@@ -191,28 +191,20 @@ input:focus, select:focus, textarea:focus { outline: 3px solid var(--marigold); 
 .note { font-size: .85rem; color: var(--ink-soft); }
 
 /* skills */
-.skills-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; margin-top: 30px; }
+.group-label { font-family: var(--display); font-size: 1.05rem; font-weight: 700; color: var(--teal); margin: 34px 0 16px; }
+.group-label:first-of-type { margin-top: 22px; }
+.skills-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
 .skill { display: flex; align-items: center; gap: 14px; padding: 18px; background: #fff; border: 1px solid var(--line); border-radius: 14px; }
 .skill-logo { width: 48px; height: 48px; flex: 0 0 48px; }
 .skill strong, .skill span { display: block; }
 .skill span { color: var(--ink-soft); font-size: .88rem; line-height: 1.35; margin-top: 2px; }
 
-/* recommendations */
-.rec-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: start; margin-top: 30px; }
-.recommendation-list { display: grid; gap: 16px; }
-.recommendation { display: flex; gap: 16px; padding: 20px; border-radius: 14px; background: var(--paper); border: 1px solid var(--line); }
-.avatar { width: 46px; height: 46px; flex: 0 0 46px; border-radius: 50%; display: grid; place-items: center; background: var(--sea); color: #fff; font: 800 1rem var(--display); }
-.recommendation p { margin-top: 4px; color: var(--ink-soft); }
-.recommendation-form { display: grid; gap: 14px; padding: 28px; background: var(--paper); border: 1px solid var(--line); border-top: 6px solid var(--marigold); border-radius: 16px; }
-.recommendation-form h3 { font-size: 1.35rem; }
-.recommendation-form textarea { resize: vertical; }
-.recommendation-form button { width: fit-content; }
-
-/* popup */
-.thanks { border: 0; border-radius: 18px; padding: 32px 34px; max-width: 380px; box-shadow: 0 30px 80px rgba(0, 0, 0, .4); color: var(--ink); }
-.thanks::backdrop { background: rgba(10, 43, 61, .65); }
-.thanks h3 { font-size: 1.6rem; }
-.thanks p { margin: 8px 0 22px; color: var(--ink-soft); }
+.skill-tags { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.skill-tags li {
+  display: flex; align-items: center; gap: 9px; padding: 10px 16px; border-radius: 999px;
+  background: #fff; border: 1.5px solid var(--line); color: var(--ink); font-weight: 700; font-size: .92rem;
+}
+.skill-tags svg { width: 18px; height: 18px; flex: 0 0 18px; fill: none; stroke: var(--teal-bright); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 
 footer { padding: 30px 6%; text-align: center; background: var(--sea); color: #c4dce4; }
 
