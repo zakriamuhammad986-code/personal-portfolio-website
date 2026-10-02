@@ -4,14 +4,12 @@ A responsive personal portfolio created for the IBM/Coursera final project requi
 
 ## Features
 - Personalized name in the top-left corner
-- Navigation links: About Me, Project Details, Skills, Recommendations
+- Navigation links: About Me, Project Details, Skills
 - Working Home icon/button (top-right of the bar) and clickable name
 - About Me section
-- Five skills with visual logos/icons (inline SVG, no internet needed)
+- Skills section in two groups: Web Development (HTML, CSS, JavaScript, Python) and GIS & Geospatial (15 tags: GIS, QGIS, ArcGIS, Remote Sensing, Spatial Analysis, CRS, GeoJSON, Shapefile, DEM, etc.)
 - Project cards with image slots
 - Three interactive GIS tools: coordinate converter, distance calculator, map scale calculator
-- Recommendation form that adds a new recommendation to the existing list
-- `showPopup()` is invoked only after a recommendation is successfully submitted
 
 ## Adding your pictures
 Put your images in the `images/` folder: `profile.jpg`, `hospital-map.jpg`, `groundwater.jpg`, `arcpy-tool.jpg`.
